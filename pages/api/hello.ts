@@ -1,3 +1,7 @@
-export default (req, res) => {
+import { NextApiHandler } from 'next'
+
+const hello: NextApiHandler = (req, res) => {
   res.status(200).json({ text: 'Hello' })
 }
+
+export default hello
