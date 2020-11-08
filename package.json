@@ -9,9 +9,11 @@
     "start": "NODE_ENV=production node dist/index.js"
   },
   "dependencies": {
+    "@grpc/proto-loader": "^0.5.5",
     "date-fns": "^2.11.1",
     "express": "^4.17.1",
     "gray-matter": "^4.0.2",
+    "grpc": "^1.24.3",
     "next": "^10.0.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
